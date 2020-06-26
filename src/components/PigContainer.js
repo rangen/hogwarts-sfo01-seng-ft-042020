@@ -61,7 +61,6 @@ class PigContainer extends React.Component {
           <button onClick={this.toggleGreasy}>{this.state.greasedFilter ? 'GREASY AF Only' : 'All Greasiness Welcome' }</button>
           <button onClick={this.toggleSortMethod}>{this.state.nameSorted ? 'Sorted by Name!' : 'Sorted by Weight!' }</button>
         </div>
-        <br /><br /><br />
         <div className="ui grid container">
           {this.getHogs().map(eachHog => <PigCard  pig={eachHog} /> )}
         </div>
