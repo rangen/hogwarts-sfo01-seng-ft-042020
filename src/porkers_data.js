@@ -5,6 +5,7 @@ const hogs = [
     greased: false,
     weight: 2.0,
     'highest medal achieved': 'bronze'
+
   },
   {
     name: 'Porkchop',
